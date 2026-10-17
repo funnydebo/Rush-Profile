@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gPh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2338" />
+      <stop offset="100%" stop-color="#281A3C" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gPh)"/>
+  <rect x="20" y="20" width="560" height="360" rx="12" fill="none" stroke="#F58A3C" stroke-width="2" stroke-dasharray="8 6" opacity="0.4"/>
+  <g transform="translate(300, 190)" text-anchor="middle">
+    <circle cx="0" cy="-30" r="40" fill="#35224F" stroke="#F58A3C" stroke-width="2"/>
+    <text x="0" y="-18" font-size="28" text-anchor="middle">🏆</text>
+    <text y="40" font-family="'Montserrat', sans-serif" font-weight="900" font-size="20" fill="#F5F2FA">
+      [ADD NEW EVENT HIGHLIGHT]
+    </text>
+    <text y="70" font-family="'Montserrat', sans-serif" font-weight="600" font-size="13" fill="#F58A3C">
+      PHOTO &amp; HIGHLIGHT PLACEHOLDER
+    </text>
+    <rect x="-140" y="95" width="280" height="24" rx="12" fill="#1B2338" stroke="#F58A3C" stroke-width="1.5" />
+    <text y="112" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#F5F2FA">
+      [REPLACE WITH /assets/event-photo.jpg]
+    </text>
+  </g>
+</svg>

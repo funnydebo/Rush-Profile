@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rushGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0484E" />
+      <stop offset="50%" stop-color="#F58A3C" />
+      <stop offset="100%" stop-color="#3CC5C9" />
+    </linearGradient>
+    <linearGradient id="glossGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="skewX(-14)">
+    <!-- Speed Lines Backing -->
+    <path d="M 20 40 L 90 40 L 75 50 L 5 50 Z" fill="#F0484E" opacity="0.6" />
+    <path d="M 10 60 L 110 60 L 95 70 L -5 70 Z" fill="#F58A3C" opacity="0.4" />
+    <path d="M 30 80 L 80 80 L 65 90 L 15 90 Z" fill="#3CC5C9" opacity="0.5" />
+
+    <!-- Main Glossy RUSH Wordmark -->
+    <text x="80" y="95" 
+          font-family="'Impact', 'Arial Black', 'Montserrat', sans-serif" 
+          font-weight="900" 
+          font-style="italic" 
+          font-size="82" 
+          letter-spacing="3" 
+          fill="url(#rushGrad)" 
+          stroke="#1B2338" 
+          stroke-width="3"
+          filter="url(#glow)">
+      RUSH
+    </text>
+
+    <!-- Gloss overlay highlight -->
+    <text x="80" y="95" 
+          font-family="'Impact', 'Arial Black', 'Montserrat', sans-serif" 
+          font-weight="900" 
+          font-style="italic" 
+          font-size="82" 
+          letter-spacing="3" 
+          fill="url(#glossGrad)" 
+          opacity="0.3">
+      RUSH
+    </text>
+
+    <!-- Trailing dynamic speed lines at top-right -->
+    <rect x="360" y="44" width="40" height="6" rx="3" fill="#3CC5C9" />
+    <rect x="385" y="58" width="55" height="5" rx="2.5" fill="#F58A3C" />
+    <rect x="370" y="72" width="30" height="5" rx="2.5" fill="#F0484E" />
+
+    <!-- Subtitle: CLUB & YAMAMAH -->
+    <text x="92" y="122" 
+          font-family="'Montserrat', 'Arial', sans-serif" 
+          font-weight="800" 
+          font-size="16" 
+          letter-spacing="6" 
+          fill="#F5F2FA">
+      CLUB • YAMAMAH
+    </text>
+  </g>
+</svg>

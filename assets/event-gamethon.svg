@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2338" />
+      <stop offset="50%" stop-color="#35224F" />
+      <stop offset="100%" stop-color="#0f1422" />
+    </linearGradient>
+    <linearGradient id="redTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0484E" />
+      <stop offset="100%" stop-color="#3CC5C9" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g1)"/>
+  <!-- Decorative speed lines -->
+  <polygon points="0,320 600,120 600,150 0,350" fill="#F0484E" opacity="0.12"/>
+  <polygon points="0,220 600,20 600,45 0,245" fill="#3CC5C9" opacity="0.1"/>
+
+  <g transform="translate(300, 180)" text-anchor="middle">
+    <!-- Icon representing gaming and speaking -->
+    <circle cx="-35" cy="-25" r="32" fill="#35224F" stroke="#F0484E" stroke-width="3"/>
+    <text x="-35" y="-18" font-size="28" fill="#F0484E" text-anchor="middle">🎮</text>
+    <circle cx="35" cy="-25" r="32" fill="#35224F" stroke="#3CC5C9" stroke-width="3"/>
+    <text x="35" y="-18" font-size="28" fill="#3CC5C9" text-anchor="middle">🎙️</text>
+
+    <text y="50" font-family="'Montserrat', sans-serif" font-weight="900" font-style="italic" font-size="22" fill="#F5F2FA">
+      GAMETHON TOURNAMENT
+    </text>
+    <text y="75" font-family="'Montserrat', sans-serif" font-weight="600" font-size="14" fill="#F58A3C">
+      RUSH × TOASTMASTERS CLUB
+    </text>
+    <rect x="-140" y="100" width="280" height="24" rx="12" fill="#1B2338" stroke="#3CC5C9" stroke-width="1.5" />
+    <text y="117" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#F5F2FA">
+      [REPLACE WITH /assets/event-gamethon.jpg]
+    </text>
+  </g>
+</svg>

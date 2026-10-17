@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2338" />
+      <stop offset="60%" stop-color="#35224F" />
+      <stop offset="100%" stop-color="#1B2338" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0484E" />
+      <stop offset="100%" stop-color="#F58A3C" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F5F2FA" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)" />
+  <rect width="800" height="500" fill="url(#grid)" />
+  
+  <!-- Speed Lines -->
+  <path d="M -50 420 L 450 180 L 520 180 L 20 420 Z" fill="#F0484E" opacity="0.15" />
+  <path d="M 120 460 L 620 220 L 690 220 L 190 460 Z" fill="#3CC5C9" opacity="0.12" />
+
+  <!-- Central Sports Visual: Football & Padel -->
+  <g transform="translate(400, 220)" text-anchor="middle">
+    <circle cx="0" cy="0" r="85" fill="#35224F" stroke="url(#accent)" stroke-width="4" />
+    <!-- Football / Padel Racket Icon -->
+    <path d="M-30,-20 L20,-50 C35,-40 45,-25 45,-5 C45,20 25,35 0,35 C-20,35 -35,25 -40,10 Z" fill="none" stroke="#F58A3C" stroke-width="4"/>
+    <circle cx="-15" cy="-5" r="28" fill="none" stroke="#3CC5C9" stroke-width="3"/>
+    <path d="M15,25 L45,55 M22,32 L52,62" stroke="#F0484E" stroke-width="5" stroke-linecap="round"/>
+    
+    <text y="130" font-family="'Montserrat', sans-serif" font-weight="900" font-style="italic" font-size="28" fill="#F5F2FA" letter-spacing="2">
+      PHYSICAL SPORTS ARENA
+    </text>
+    <text y="160" font-family="'Cairo', sans-serif" font-weight="600" font-size="16" fill="#3CC5C9" letter-spacing="1">
+      PADEL • FOOTBALL • FITNESS &amp; CONDITIONING
+    </text>
+    <rect x="-140" y="180" width="280" height="26" rx="13" fill="#1B2338" stroke="#F0484E" stroke-width="1.5" />
+    <text y="198" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#F5F2FA">
+      [REPLACE WITH /assets/sports.jpg]
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gBm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2338" />
+      <stop offset="60%" stop-color="#35224F" />
+      <stop offset="100%" stop-color="#2a1220" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gBm)"/>
+  <polygon points="0,380 600,140 600,180 0,420" fill="#F0484E" opacity="0.18"/>
+
+  <g transform="translate(300, 180)" text-anchor="middle">
+    <circle cx="0" cy="-25" r="45" fill="#1B2338" stroke="#F0484E" stroke-width="3"/>
+    <text x="0" y="-12" font-size="32" text-anchor="middle">⚡🏋️</text>
+
+    <text y="50" font-family="'Montserrat', sans-serif" font-weight="900" font-style="italic" font-size="22" fill="#F5F2FA">
+      BODY MASTERS PARTNERSHIP
+    </text>
+    <text y="75" font-family="'Montserrat', sans-serif" font-weight="600" font-size="14" fill="#F0484E">
+      CAMPUS FITNESS &amp; CONDITIONING
+    </text>
+    <rect x="-140" y="100" width="280" height="24" rx="12" fill="#1B2338" stroke="#F0484E" stroke-width="1.5" />
+    <text y="117" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#F5F2FA">
+      [REPLACE WITH /assets/event-bodymasters.jpg]
+    </text>
+  </g>
+</svg>

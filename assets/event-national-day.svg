@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gNat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142823" />
+      <stop offset="50%" stop-color="#1B2338" />
+      <stop offset="100%" stop-color="#35224F" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gNat)"/>
+  <polygon points="0,350 600,100 600,140 0,390" fill="#006C35" opacity="0.25"/>
+  <polygon points="0,270 600,50 600,75 0,295" fill="#3CC5C9" opacity="0.15"/>
+
+  <g transform="translate(300, 180)" text-anchor="middle">
+    <circle cx="0" cy="-25" r="45" fill="#1B2338" stroke="#3CC5C9" stroke-width="3"/>
+    <text x="0" y="-12" font-size="34" text-anchor="middle">🇸🇦</text>
+
+    <text y="50" font-family="'Montserrat', sans-serif" font-weight="900" font-style="italic" font-size="22" fill="#F5F2FA">
+      NATIONAL DAY SHOWCASE
+    </text>
+    <text y="75" font-family="'Montserrat', sans-serif" font-weight="600" font-size="14" fill="#3CC5C9">
+      CAMPUS ATHLETIC CELEBRATION
+    </text>
+    <rect x="-140" y="100" width="280" height="24" rx="12" fill="#1B2338" stroke="#F58A3C" stroke-width="1.5" />
+    <text y="117" font-family="'Montserrat', sans-serif" font-weight="700" font-size="11" fill="#F5F2FA">
+      [REPLACE WITH /assets/event-national-day.jpg]
+    </text>
+  </g>
+</svg>

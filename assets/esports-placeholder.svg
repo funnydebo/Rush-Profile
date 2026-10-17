@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="esportsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2338" />
+      <stop offset="40%" stop-color="#231938" />
+      <stop offset="100%" stop-color="#1B2338" />
+    </linearGradient>
+    <linearGradient id="cyberTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3CC5C9" />
+      <stop offset="100%" stop-color="#F0484E" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#esportsBg)" />
+  
+  <!-- Cyber HUD Graphics -->
+  <circle cx="400" cy="220" r="140" fill="none" stroke="#3CC5C9" stroke-width="1.5" stroke-dasharray="10 8" opacity="0.4" />
+  <circle cx="400" cy="220" r="115" fill="none" stroke="#F58A3C" stroke-width="1" stroke-dasharray="24 12" opacity="0.5" />
+  
+  <!-- Controller / HUD Icon -->
+  <g transform="translate(400, 220)" text-anchor="middle">
+    <path d="M-60,-15 C-55,-40 -20,-45 0,-45 C20,-45 55,-40 60,-15 C65,15 50,45 35,45 C25,45 20,35 15,25 C8,20 -8,20 -15,25 C-20,35 -25,45 -35,45 C-50,45 -65,15 -60,-15 Z" fill="#35224F" stroke="url(#cyberTeal)" stroke-width="4" />
+    <!-- D-Pad -->
+    <path d="M-36,-10 L-26,-10 M-31,-15 L-31,-5" stroke="#3CC5C9" stroke-width="4" stroke-linecap="round"/>
+    <!-- Buttons -->
+    <circle cx="30" cy="-14" r="4" fill="#F0484E"/>
+    <circle cx="38" cy="-6" r="4" fill="#F58A3C"/>
+    <circle cx="22" cy="-6" r="4" fill="#3CC5C9"/>
+    <circle cx="30" cy="2" r="4" fill="#F5F2FA"/>
+
+    <text y="130" font-family="'Montserrat', sans-serif" font-weight="900" font-style="italic" font-size="28" fill="#F5F2FA" letter-spacing="2">
+      ELECTRONIC SPORTS BATTLEGROUND
+    </text>
+    <text y="160" font-family="'Cairo', sans-serif" font-weight="600" font-size="16" fill="#F58A3C" letter-spacing="1">
+      COMPETITIVE LANs • CONSOLE &amp; PC • TOURNAMENTS
+    </text>
+    <rect x="-140" y="180" width="280" height="26" rx="13" fill="#1B2338" stroke="#3CC5C9" stroke-width="1.5" />
+    <text y="198" font-family="'Montserrat', sans-serif" font-weight="700" font-size="12" fill="#F5F2FA">
+      [REPLACE WITH /assets/esports.jpg]
+    </text>
+  </g>
+</svg>
